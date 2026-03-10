@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Profile Image Navigation</title>
+</head>
+<body>
+<h2>Click an image to open a profile</h2>
+<!-- IMAGE 1 -->
+<a href="https://chatgpt.com/"target="_blank">
+<img src ="C:\Users\mahat\OneDrive\Documents\WhatsApp Image 2025-12-17 at 10.25.51_9a79ea3b.jpg"alt="Your Profile Image"width="200"height="200">
+</a>
+<!-- IMAGE 2 -->
+<a href="https://www.hackerrank.com/dashboard"target="_blank">
+<img src ="C:\Users\mahat\OneDrive\Documents\WhatsApp Image 2025-12-17 at 10.24.22_20bd7bc1.jpg"alt="Friend's Profile Image"width="200"height="200">
+</a>
+</body>
+</html>
