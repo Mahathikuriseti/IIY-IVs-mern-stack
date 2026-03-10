@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: "Times New Roman", Times, serif; /* Traditional Font */
+        }
+        
+        /* Header: Navy Blue with White Text */
+        th {
+            background-color: #000080; 
+            color: white;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Time Column: Traditional Light Gray */
+        .time-col {
+            background-color: #d3d3d3;
+            font-weight: bold;
+        }
+
+        /* Lunch Break: Traditional Pale Yellow */
+        .lunch {
+            background-color: #ffff99;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        /* Lab Sessions: Soft Sky Blue */
+        .lab {
+            background-color: #e6f2ff;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">B.TECH 2ND YEAR (AI & ML) - CLASS SCHEDULE</h2>
+
+    <table>
+        <tr>
+            <th>TIME</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+        </tr>
+
+        <tr>
+            <td class="time-col">09:00 - 10:00</td>
+            <td class="lab" colspan="2">MERN STACK LAB</td>
+            <td>Data Structures</td>
+            <td>Discrete Math</td>
+            <td>Python for AI</td>
+        </tr>
+
+        <tr>
+            <td class="time-col">10:00 - 11:00</td>
+            <td>AI Ethics</td>
+            <td class="lab" rowspan="2">DATA MINING LAB</td>
+            <td>Operating Systems</td>
+            <td>Prob & Stats</td>
+            <td>Discrete Math</td>
+        </tr>
+
+        <tr>
+            <td class="time-col">11:00 - 12:00</td>
+            <td>Data Structures</td>
+            <td>Machine Learning</td>
+            <td>Operating Systems</td>
+            <td>Python for AI</td>
+        </tr>
+
+        <tr class="lunch">
+            <td class="time-col">12:00 - 01:00</td>
+            <td colspan="5">LUNCH BREAK</td>
+        </tr>
+
+        <tr>
+            <td class="time-col">01:00 - 02:00</td>
+            <td>Prob & Stats</td>
+            <td>Linear Algebra</td>
+            <td class="lab" colspan="2">MACHINE LEARNING LAB</td>
+            <td>AI Ethics</td>
+        </tr>
+
+        <tr>
+            <td class="time-col">02:00 - 03:00</td>
+            <td>Operating Systems</td>
+            <td>Data Structures</td>
+            <td class="lab">ML LAB (Cont.)</td>
+            <td>Linear Algebra</td>
+            <td>Library</td>
+        </tr>
+    </table>
+
+</body>
+</html>
