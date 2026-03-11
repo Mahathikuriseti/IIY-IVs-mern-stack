@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box-model-demo {
+            /* 1. Content: The width and height of the actual stuff inside */
+            width: 300px;
+            background-color: lightblue;
+
+            /* 2. Padding: Space INSIDE the border (between text and border) */
+            padding: 30px;
+
+            /* 3. Border: The line wrapping around the padding and content */
+            border: 10px solid navy;
+
+            /* 4. Margin: Space OUTSIDE the border (pushes other elements away) */
+            margin: 50px;
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .label { font-weight: bold; color: navy; }
+    </style>
+</head>
+<body>
+
+    <h2>Understanding the CSS Box Model</h2>
+
+    <div class="box-model-demo">
+        <span class="label">I am the Content</span>
+        <p>Everything you see in this light blue area is inside the <b>Padding</b>. 
+           The thick dark line is the <b>Border</b>, and the empty white space 
+           outside the box is the <b>Margin</b>.</p>
+    </div>
+
+    <p style="background-color: #eee;">
+        This text is pushed away because of the <b>Margin</b> of the box above.
+    </p>
+
+</body>
+</html>
