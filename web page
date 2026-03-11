@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 1. Color Names: Standard predefined names */
+        .name { color: Tomato; }
+
+        /* 2. Hexadecimal (Hex): #RRGGBB format */
+        .hex { color: #3498db; }
+
+        /* 3. RGB: Red, Green, Blue values (0-255) */
+        .rgb { color: rgb(46, 204, 113); }
+
+        /* 4. RGBA: RGB + Alpha (Transparency from 0.0 to 1.0) */
+        .rgba { color: rgba(155, 89, 182, 0.5); }
+
+        /* 5. HSL: Hue (0-360), Saturation (%), Lightness (%) */
+        .hsl { color: hsl(45, 100%, 50%); }
+    </style>
+</head>
+<body>
+
+    <h2>Ways to Define Colors in CSS</h2>
+
+    <p class="name">This is using a <b>Color Name</b> (Tomato).</p>
+    
+    <p class="hex">This is using a <b>Hex Code</b> (#3498db).</p>
+    
+    <p class="rgb">This is using <b>RGB</b> (46, 204, 113).</p>
+    
+    <p class="rgba">This is using <b>RGBA</b> (Purple with 50% transparency).</p>
+    
+    <p class="hsl">This is using <b>HSL</b> (Gold/Yellow).</p>
+
+</body>
+</html>
